@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   
-    "scripts": {
-      "start": "node dist/app.js",
-      "dev": "nodemon src/app.ts",
-      "build": "tsc",
-      "populate-questions": "ts-node src/scripts/populateQuestions.ts"
-    },
+   "scripts": {
+   "start": "node dist/app.js",
+   "dev": "nodemon src/app.ts",
+   "build": "tsc",
+   "populate-questions": "ts-node src/scripts/populateQuestions.ts"
+},
+
   
   "keywords": [],
   "author": "",
